@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="contact/Humanity.png" rel="shorcut icon">
+  <link rel="stylesheet" type="text/css" href="css/home.css">
+  <script src="js/jguery.min.js"></script>
+  <script>
+  var load = document.getElementById('loaded');
+    $(document).ready(function(){
+    $("#btnLoad").click(function(){
+        $("#load").animate({width: "100%"},5000);
+    });
+
+});
+  </script>
+</head>
+<body>
+  <header>
+    <div id="head2">
+      <ul class="menu">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="activity.html">Activity</a></li>
+        <li><a href="donasi.html">Donation</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+
+      <div class="list1">
+        <img id="logo1" src="gambar/logo5.png">
+        <img id="logo2" src="gambar/logo5.png">
+      </div>
+    </div>
+  </header>
+  <div class="clear"></div>
+
+    <div class="container-form">
+      <div class="registrasi">
+        <p>Login</p>
+      <!--<div class="clear"></div>
+      <div class="atau"><p>Atau</p></div> -->
+      <div class="clear"></div>
+      
+      <form action="#">
+          <label for="email"><b>Email</b></label>
+          <br>
+          <input style="width: 100%;" type="text" name="email" placeholder="Email-e.g.novinurkhaeni@gmail.com" required></input>
+          <br>
+          <label for="passwd"><b>Password</b></label>
+          <br>
+          <input style="width: 100%; margin-bottom: 0;" type="password" name="passwd" placeholder="Password" ></input>
+          <br>
+          <input id="btnLoad" type="submit" value="Login" >
+          <div id="load"></div>
+          </div>
+        <div class="fb">
+        <table>
+          <tr>
+          <td><a href="https://facebook.com/"> <img src="contact/fb.png"><input type="button" name="submit"  value="Signin With Facebook"/></a></td>
+          </tr>
+        </table>
+      </div>
+          <div class="belum"><p>Don't have an account? <a href="daftar.html">Signup</a></p>
+          <br>
+          <input type="checkbox" checked="checked" name="remember"> Remember Me
+          </div>
+          <div class="lupa"><a href="#">Forgot password?</a></div>
+      </form>
+    </div>
+
+<div class="clear"></div>
+
+<div class="container-footer">
+<div class="pojok"></div>
+<table>
+  <tr>
+    <td class="judul-kolom">Information</td>
+    <td class="judul-kolom">Join Us</td>
+    <td class="judul-kolom">Follow Us</td>
+    <td class="judul-kolom">Our Office</td>
+  </tr>
+  <tr>
+    <td rowspan="5" style="vertical-align: text-top;">
+      <ul>
+        <li><a href="#">Help</a></li>
+        <li><a href="#">Privacy & Policy</a></li>
+        <li><a href="#">Term & Conditions</a></li>
+        <li><a href="#">FAQS</a></li>
+        <li><a href="#">About Us</a></li>
+      </ul>
+    </td>
+    <td rowspan="5" style="vertical-align: text-top; padding-top: 0.3em; width: 30%;">
+      <input type="text" name="emailJoin" placeholder="email"></input>
+      <input type="button" name="buttonJoinUs" value="Subscribe"></input>
+    </td>
+    <td rowspan="5" style="vertical-align: text-top; width: 27%;">
+      <ul>
+        <li><a href="#"><img src="contact/ig.png"><span>@Humanity</span></a></li>
+        <li><a href="#"><img src="contact/twi.png"><span>@humanity</span></a></li>
+        <li><a href="#"><img src="contact/fb.png"><span>HumanityIndo</span></a></li>
+        <li><a href="#"><img src="contact/mail.png"><span>humanity.hallo@gmail.com</span></a></li>
+      </ul>
+    </td>
+    <td rowspan="5" style="width: 20%;">
+      <p>Kantor Humanity</p>
+      <p style="padding-bottom: 10px;"> Jl. Nangka No 20 <br> Condong Catur, Depok, Sleman, Yogyakarta <br> Telp +6287738880283 <br>email humanity.halo@gmail.com</p>
+    </td>
+  </tr>
+</table>
+</div
+</body>
+</html> 
